@@ -7,7 +7,7 @@ from cli.status import AuthStatus
 MESSAGES = {
     AuthStatus.SUCCESS: {
         "signup": "✅ Usuario '{user}' creado exitosamente.",
-        "login": "🔐 Bienvenido, {user}."
+        "login": "🔐 Bienvenido/a, {user}."
     },
     AuthStatus.USER_EXISTS: "⚠️ Usuario '{user}' ya existe.",
     AuthStatus.USER_NOT_FOUND: "❌ Usuario '{user}' no encontrado.",

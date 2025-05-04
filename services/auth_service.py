@@ -26,7 +26,7 @@ def _load_users():
         USERS_FILE.rename(backup)
         return {}
 
-def _save_users(users):
+def _save_users(users: dict):
     """
     Guarda el diccionario de usuarios en el JSON.
     Crea la carpeta data/ si no existe.
